@@ -1,0 +1,47 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+    <!-- 上边部分 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/txt_landmine"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="000"
+            android:layout_weight="0.4"
+            android:gravity="center"
+            android:textSize="26sp"/>
+        <ImageButton
+            android:id="@+id/ibn_games"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/smile"
+            android:layout_weight="0.2"/>
+        <TextView
+            android:id="@+id/txt_time"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="000"
+            android:layout_weight="0.4"
+            android:gravity="center"
+            android:textSize="26sp"
+            />
+    </LinearLayout>
+
+    <!-- 扫雷区域 -->
+    <TableLayout
+        android:id="@+id/tlt_landmine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.qoson.shaoleiproject.ResultActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#007500"
+        android:text="成绩排行榜"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_height="56dp"/>
+    <ListView
+        android:id="@+id/lvResultActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>

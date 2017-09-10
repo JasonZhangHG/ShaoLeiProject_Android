@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+   <Button
+       android:id="@+id/btnMainEasy"
+       android:layout_width="150dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="60dp"
+       android:background="#ffff00"
+       android:layout_gravity="center_horizontal"
+       android:gravity="center"
+       android:text="初级模式"
+       android:textSize="20sp"
+       android:textColor="#ff00"/>
+
+    <Button
+        android:id="@+id/btnMainMiddle"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:background="#ffff00"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="中级模式"
+        android:textSize="20sp"
+        android:textColor="#ff00"/>
+
+    <Button
+        android:id="@+id/btnMainHard"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:background="#ffff00"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="高级模式"
+        android:textSize="20sp"
+        android:textColor="#ff00"/>
+
+    <Button
+        android:id="@+id/btnMainResult"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:background="#ffff00"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="成绩排名"
+        android:textSize="20sp"
+        android:textColor="#ff00"/>
+
+    <Button
+        android:id="@+id/btnMainLogout"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:background="#ffff00"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="退出登录"
+        android:textSize="20sp"
+        android:textColor="#ff00"/>
+
+</LinearLayout>
